@@ -32,7 +32,7 @@ module.exports = (sequelize, DataTypes) => {
         allowNull: false,
       },
       biography: {
-        type: DataTypes.STRING(20),
+        type: DataTypes.TEXT,
         allowNull: false,
       },
       img: {
